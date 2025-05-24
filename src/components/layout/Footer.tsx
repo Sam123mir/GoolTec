@@ -14,14 +14,11 @@ const Footer = () => {
               Un golazo en tecnología. Ofrecemos los mejores productos y servicios tecnológicos con la garantía y calidad que mereces.
             </p>
             <div className="flex space-x-4 pt-2">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors" aria-label="Facebook">
+              <a href="https://www.facebook.com/GoolTecJuanjui" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors" aria-label="Facebook">
                 <Facebook size={20} />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors" aria-label="Instagram">
+              <a href="https://www.instagram.com/gooltecjuanjui/" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors" aria-label="Instagram">
                 <Instagram size={20} />
-              </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors" aria-label="Twitter">
-                <Twitter size={20} />
               </a>
             </div>
           </div>
@@ -90,7 +87,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail size={18} className="mr-2 flex-shrink-0" />
-                <a href="mailto:contacto@gooltec.com" className="text-gray-300 hover:text-white transition-colors">contacto@gooltec.com</a>
+                <a href="gooltecperusac@gmail.com" className="text-gray-300 hover:text-white transition-colors">gooltecperusac@gmail.com</a>
               </li>
             </ul>
           </div>
