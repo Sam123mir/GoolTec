@@ -130,28 +130,32 @@ export const products: Product[] = [
     inStock: true,
     featured: true,
     specifications: {
-      "Procesador": "Snapdragon 8 Gen 2",
-      "RAM": "12GB",
-      "Almacenamiento": "256GB",
-      "Pantalla": "6.7\" AMOLED 120Hz",
-      "Cámara": "108MP + 48MP + 12MP"
+      "Procesador": "Octa-Core (Exynos 850 o Dimensity 700, según versión)",
+      "RAM": "4GB",
+      "Almacenamiento": "128GB",
+      "Pantalla": "6.6 pulgadas FHD+ PLS LCD (1080 x 2408)",
+      "Cámaras": "Principal: 50MP (Gran Angular) + 5MP (Ultra Gran Angular o Profundidad, según versión) + 2MP (Macro); Frontal: 13MP",
+      "Batería": "5000 mAh",
+      "Sistema Operativo":"Android 13 (con One UI Core)"
     }
   },
   {
     id: 33,
-    name: "Tablet GoolPad Air",
-    description: "Tablet ultraligera con pantalla de alta resolución ideal para creativos.",
-    price: 499.99,
-    image: "https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    category: "Tablets",
+    name: "Samsung Galaxy A34 5G",
+    description: "El Samsung Galaxy A34 5G es un smartphone de gama media que combina rendimiento y estilo. Con una potente configuración de 8GB de RAM y 256GB de almacenamiento, ofrece una experiencia fluida para todas tus aplicaciones y contenido. Su pantalla Super AMOLED de 6.6 pulgadas te brinda colores vibrantes y negros profundos.",
+    price: 1399.00,
+    image: "https://cdn.zyrosite.com/cdn-cgi/image/format=auto,w=861,fit=scale-down/cdn-ecommerce/store_01HYBZ4GR4ES8D4YPHK08H9AX7%2Fassets%2F1717594754064-191185-800-auto.png",
+    category: "Smartphones",
     inStock: true,
     featured: false,
     specifications: {
-      "Procesador": "A14 Bionic",
+      "Procesador": "MediaTek Dimensity 1080",
       "RAM": "8GB",
-      "Almacenamiento": "128GB",
-      "Pantalla": "11\" Retina Display",
-      "Batería": "10,000 mAh"
+      "Almacenamiento": "256GB",
+      "Pantalla": "6.6\" Super AMOLED FHD+",
+      "Camaras": "Principal: 48MP + 8MP (Ultra Wide) + 5MP (Macro); Frontal: 13MP",
+      "Batería": "5000 mAh",
+      "Sistema Operativo": "Android 13 (One UI 5.1)"
     }
   },
   {
