@@ -4,6 +4,7 @@ import { products } from '../data/products';
 import { testimonials } from '../data/testimonials';
 import ProductCard from '../components/shared/ProductCard';
 import TestimonialCard from '../components/shared/TestimonialCard';
+import gooltecLogo from '../assets/logo2-gooltec.png';
 
 const HomePage = () => {
   // Get featured products
@@ -35,7 +36,7 @@ const HomePage = () => {
           </div>
           <div className="hidden md:block">
             <img 
-              src="https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+              src={gooltecLogo} // Cambiamos la URL por la importación del logo
               alt="Tecnología GoolTec" 
               className="rounded-lg shadow-2xl object-cover max-h-96 w-full animate-fade-in"
             />

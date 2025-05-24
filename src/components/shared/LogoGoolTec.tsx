@@ -19,7 +19,7 @@ const LogoGoolTec: React.FC<LogoGoolTecProps> = ({ className = "h-10" }) => {
         className="h-full w-auto object-contain -mt-6" // Añadimos -mt-2 para mover hacia arriba
       />
       {/* El texto "GoolTec" debajo del logo se mantiene */}
-      <div className="text-xl font-bold mt-0 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-blue-500">
+      <div className="text-xl font-bold -mt-2 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-blue-500">
         GoolTec
       </div>
     </div>
