@@ -12,11 +12,11 @@ export const testimonials: Testimonial[] = [
   {
     id: 1,
     name: "Carlos Mendoza",
-    position: "Director de Tecnología",
-    company: "Innova Solutions",
-    content: "GoolTec ha sido un socio tecnológico excepcional. Su asesoría nos permitió implementar soluciones que aumentaron nuestra productividad en un 30%. Además, el soporte técnico es rápido y eficiente.",
+    position: "Dueño",
+    company: "Tapicería La Mascara",
+    content: "Compramos computadoras en GoolTec para emitir nuestras boletas electrónicas y el proceso fue muy sencillo. Nos asesoraron sobre el equipo ideal para nuestro negocio de tapicería de motos y la atención fue excelente.",
     rating: 5,
-    image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    image: "https://scontent.flim14-1.fna.fbcdn.net/v/t39.30808-6/494440835_723169750227082_2376945720815820394_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHqidUaZJ4L_Uos8tRMVJ0PECx8IgCthuwQLHwiAK2G7Ogsj1u7s0LukJsv-ZFqBOZ-ABwZWxVV1aXnTQiIUt8V&_nc_ohc=GmJ7dDoaAl4Q7kNvwH0EQi3&_nc_oc=AdlGRiumPgffc9OtoohLjAgWU7c4z-vDLJUXHZC8VpB7A5wOXtClqITNOezFc9PC3ag&_nc_zt=23&_nc_ht=scontent.flim14-1.fna&_nc_gid=bwqnC60GkyNYIO1Z3adXzQ&oh=00_AfJd_L0xKFOdCygzf4jW7vvekaaYgxltwJLzCO1_TRNgUQ&oe=683867AF"
   },
   {
     id: 2,

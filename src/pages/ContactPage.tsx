@@ -1,7 +1,11 @@
 import { MapPin, Phone, Mail, Clock, MessageCircle } from 'lucide-react';
 import ContactForm from '../components/shared/ContactForm';
 
-const ContactPage = () => {
+export default function ContactPage() {
+  const phoneNumber = '+51925252599'; // Replace with your actual WhatsApp number
+  const message = '¡Hola **GoolTec!** Estoy interesado(a) en conocer más sobre sus productos y servicios. ¿Podrían ayudarme?';
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
   return (
     <div className="pt-16 pb-12">
       {/* Hero Section */}
@@ -26,8 +30,8 @@ const ContactPage = () => {
                 <MapPin className="text-indigo-600" size={28} />
               </div>
               <h3 className="text-xl font-bold mb-2">Ubicación</h3>
-              <p className="text-gray-600 mb-2">Av. Tecnológica 123</p>
-              <p className="text-gray-600">Ciudad Tech, CP 12345</p>
+              <p className="text-gray-600 mb-2">Jirón Huallaga 849</p>
+              <p className="text-gray-600">JuanjuÍ, CP 22601</p>
             </div>
             
             {/* Contact */}
@@ -37,10 +41,10 @@ const ContactPage = () => {
               </div>
               <h3 className="text-xl font-bold mb-2">Teléfono & Email</h3>
               <p className="text-gray-600 mb-2">
-                <a href="tel:+51912345678" className="hover:text-indigo-600 transition-colors">+51 912 345 678</a>
+                <a href="tel:+51925252599" className="hover:text-indigo-600 transition-colors">+51 925252599</a>
               </p>
               <p className="text-gray-600">
-                <a href="mailto:contacto@gooltec.com" className="hover:text-indigo-600 transition-colors">contacto@gooltec.com</a>
+                <a href="mailto:info@gooltec.com" className="hover:text-indigo-600 transition-colors">info@gooltec.com</a>
               </p>
             </div>
             
@@ -50,8 +54,9 @@ const ContactPage = () => {
                 <Clock className="text-indigo-600" size={28} />
               </div>
               <h3 className="text-xl font-bold mb-2">Horario de Atención</h3>
-              <p className="text-gray-600 mb-2">Lunes a Viernes: 9:00 - 18:00</p>
-              <p className="text-gray-600">Sábados: 9:00 - 14:00</p>
+              <p className="text-gray-600 mb-2">8:00 am - 1:00 pm</p>
+              <p className="text-gray-600">2:30 pm - 7:00 pm</p>
+              <p className="text-gray-600">Domingos Medio Dia</p>
             </div>
           </div>
           
@@ -67,6 +72,16 @@ const ContactPage = () => {
               <h2 className="text-2xl font-bold mb-6">Encuéntranos</h2>
               {/* Map placeholder - in a real app, use Google Maps or similar */}
               <div className="bg-gray-200 h-80 rounded-lg mb-6 relative overflow-hidden">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.0647927777187!2d-76.73116068566144!3d-7.180531394836095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b8c3ba2c1a71d1%3A0x0!2zN8KwMTAnNDkuOSJTIDc2wrA0Myc0NC4zIlc!5e0!3m2!1ses!2pe!4v1621234567890!5m2!1ses!2pe"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="rounded-lg"
+                ></iframe>
                 <div className="absolute inset-0 flex items-center justify-center">
                   <p className="text-gray-600">Mapa interactivo</p>
                 </div>
@@ -95,7 +110,7 @@ const ContactPage = () => {
                     <div>
                       <h4 className="font-semibold mb-1">Soporte técnico</h4>
                       <p className="text-gray-600 text-sm">
-                        Para asistencia técnica, escríbenos a <a href="mailto:soporte@gooltec.com" className="text-indigo-600 hover:underline">soporte@gooltec.com</a>
+                        Para asistencia técnica, escríbenos a <a href="mailto:info@gooltec.com" className="text-indigo-600 hover:underline">info@gooltec.com</a>
                       </p>
                     </div>
                   </div>
@@ -107,7 +122,7 @@ const ContactPage = () => {
                     <div>
                       <h4 className="font-semibold mb-1">Ventas corporativas</h4>
                       <p className="text-gray-600 text-sm">
-                        Para consultas empresariales, escríbenos a <a href="mailto:empresas@gooltec.com" className="text-indigo-600 hover:underline">empresas@gooltec.com</a>
+                        Para consultas empresariales, escríbenos a <a href="mailto:info@gooltec.com" className="text-indigo-600 hover:underline">info@gooltec.com</a>
                       </p>
                     </div>
                   </div>
@@ -139,7 +154,7 @@ const ContactPage = () => {
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-lg font-bold mb-2">¿Cuánto tiempo tarda el envío?</h3>
               <p className="text-gray-600">
-                Los envíos locales suelen tardar de 1 a 3 días hábiles. Para zonas más alejadas, puede tomar entre 3 y 5 días hábiles.
+                Los envíos locales suelen tardar de 1 a 3 horas hábiles.
               </p>
             </div>
             
@@ -171,17 +186,18 @@ const ContactPage = () => {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a 
-              href="tel:+51912345678" 
+              href="tel:+51925252599" 
               className="btn bg-white text-indigo-600 hover:bg-opacity-90 font-semibold px-8 py-3 inline-flex items-center justify-center"
             >
               <Phone size={18} className="mr-2" />
               Llamar Ahora
             </a>
             <a 
-              href="https://wa.me/51912345678" 
+              href={whatsappUrl} 
               target="_blank" 
               rel="noopener noreferrer"
               className="btn border-2 border-white text-white hover:bg-white hover:text-indigo-600 font-semibold px-8 py-3 transition-colors inline-flex items-center justify-center"
+              arial-label="Chat on WhatsApp"
             >
               <MessageCircle size={18} className="mr-2" />
               WhatsApp
@@ -191,6 +207,4 @@ const ContactPage = () => {
       </section>
     </div>
   );
-};
-
-export default ContactPage;
+}

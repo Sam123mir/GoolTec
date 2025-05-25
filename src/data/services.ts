@@ -10,53 +10,54 @@ export const services: Service[] = [
   {
     id: 1,
     title: "Instalación y Configuración",
-    description: "Instalación profesional y configuración de equipos, software y redes para un funcionamiento óptimo.",
+    description: "Instalamos y configuramos equipos, componentes, cámaras de seguridad y redes para un funcionamiento eficiente y seguro.",
     icon: "SettingsIcon",
     benefits: [
       "Instalación de hardware y software",
+      "Montaje de componentes para PC",
+      "Instalación de cámaras de seguridad",
       "Configuración de redes y sistemas",
       "Optimización de rendimiento",
-      "Migración de datos",
-      "Configuración de seguridad"
+      "Migración de datos y configuración de seguridad"
     ]
   },
   {
     id: 2,
     title: "Soporte Técnico",
-    description: "Soporte técnico especializado para resolver problemas y mantener tus dispositivos funcionando correctamente.",
+    description: "Soporte técnico especializado para resolver fallos, mejorar el rendimiento y garantizar la estabilidad de tus equipos.",
     icon: "HeadsetIcon",
     benefits: [
-      "Diagnóstico y resolución de problemas",
-      "Soporte remoto y presencial",
-      "Mantenimiento preventivo",
-      "Actualizaciones de sistema",
-      "Respaldo de datos"
+      "Diagnóstico y solución de problemas",
+      "Soporte remoto y en sitio",
+      "Mantenimiento preventivo y correctivo",
+      "Actualizaciones de software y firmware",
+      "Copia de seguridad y recuperación de datos"
     ]
   },
   {
     id: 3,
     title: "Asesoría Tecnológica",
-    description: "Consultoría personalizada para ayudarte a elegir las mejores soluciones tecnológicas para tus necesidades.",
+    description: "Te ayudamos a tomar decisiones tecnológicas inteligentes según tus necesidades, presupuesto y objetivos.",
     icon: "LightbulbIcon",
     benefits: [
-      "Análisis de necesidades tecnológicas",
-      "Recomendaciones personalizadas",
-      "Optimización de presupuesto",
-      "Planificación de actualización",
-      "Evaluación de compatibilidad"
+      "Análisis personalizado de necesidades",
+      "Recomendaciones de equipos y sistemas",
+      "Optimización de inversión tecnológica",
+      "Planes de renovación tecnológica",
+      "Evaluación de compatibilidad entre equipos"
     ]
   },
   {
     id: 4,
     title: "Reparación de Equipos",
-    description: "Servicio técnico especializado para reparar tus dispositivos electrónicos con garantía y rapidez.",
+    description: "Reparamos computadoras, laptops y dispositivos electrónicos con garantía, repuestos de calidad y atención rápida.",
     icon: "ToolIcon",
     benefits: [
-      "Reparación de hardware",
-      "Solución de problemas de software",
-      "Reemplazo de componentes",
-      "Recuperación de datos",
-      "Garantía en reparaciones"
+      "Reparación de fallas de hardware",
+      "Solución de errores de software",
+      "Reemplazo de piezas y componentes",
+      "Recuperación avanzada de datos",
+      "Servicio con garantía"
     ]
   }
 ];

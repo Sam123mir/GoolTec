@@ -1,4 +1,4 @@
-import { Award, Users, Target, Clock, CheckCircle } from 'lucide-react';
+import { Award, Target, Clock, CheckCircle } from 'lucide-react';
 
 const AboutPage = () => {
   return (
@@ -23,7 +23,7 @@ const AboutPage = () => {
               <h2 className="text-3xl font-bold mb-6">Nuestra Historia</h2>
               <div className="h-1 w-20 bg-indigo-600 mb-6"></div>
               <p className="text-gray-700 mb-4">
-                GoolTec nació en 2018 de la pasión por la tecnología y la visión de ofrecer soluciones tecnológicas accesibles y de calidad para todos. Lo que comenzó como una pequeña tienda de reparación de computadoras se ha convertido en un referente tecnológico en nuestra región.
+                Iniciamos el 15 de septiembre de 2021 como SuperTec Peru Sac, y luego evolucionamos para convertirnos en GoolTec, revolucionando nuestra propuesta tecnológica en la región.
               </p>
               <p className="text-gray-700 mb-4">
                 Desde nuestros inicios, nos hemos comprometido con la excelencia en el servicio al cliente y con mantenernos a la vanguardia de las innovaciones tecnológicas. Nuestro equipo de expertos está constantemente capacitándose para ofrecerte la mejor asesoría y los productos más avanzados del mercado.
@@ -34,12 +34,12 @@ const AboutPage = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://images.pexels.com/photos/3182833/pexels-photo-3182833.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                src="/images/image1.png"
                 alt="Historia de GoolTec" 
                 className="rounded-lg shadow-lg object-cover"
               />
               <div className="absolute -bottom-5 -left-5 bg-white p-4 rounded-lg shadow-lg">
-                <p className="text-4xl font-bold gradient-text">2018</p>
+                <p className="text-4xl font-bold gradient-text">2021</p>
                 <p className="text-gray-600">Año de fundación</p>
               </div>
             </div>
@@ -128,17 +128,17 @@ const AboutPage = () => {
             <div className="bg-white rounded-lg shadow-md overflow-hidden group">
               <div className="relative overflow-hidden">
                 <img 
-                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                  alt="Carlos Mendoza" 
+                  src="https://scontent.flim14-1.fna.fbcdn.net/v/t39.30808-6/476605647_10234658851882864_5433380884732273704_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEAkTP3pED7MozsRwnQFYl9zZnAK3670pLNmcArfrvSkg7_LuZeC9OUkdVLUshHGCaXFpeKz8Tr2no58eGkTaUZ&_nc_ohc=UZQsPeu1eJkQ7kNvwH3vcyS&_nc_oc=AdmA1NQMp_VKMPsexRXvs07HQ-mUGjtm6nZRT1mKBzesbZHgr4J7CYFVkQURabdtlsE&_nc_zt=23&_nc_ht=scontent.flim14-1.fna&_nc_gid=SNwN8Ryfuh-TBlD6K6UwdQ&oh=00_AfJ-byq2Ublp71boTAVcIscb95O7uMsgYn3x7rrxIrXcNA&oe=68386EC1" 
+                  alt="Jose Quiroz" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-indigo-900 to-transparent opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
               </div>
               <div className="p-4 text-center">
-                <h3 className="text-lg font-bold mb-1">Carlos Mendoza</h3>
+                <h3 className="text-lg font-bold mb-1">Jose Manuel Quiroz Chavez</h3>
                 <p className="text-indigo-600 mb-2">CEO & Fundador</p>
                 <p className="text-gray-600 text-sm">
-                  Con más de 15 años de experiencia en el sector tecnológico.
+                  Con más de 15 años de experiencia en el sector empresarial.
                 </p>
               </div>
             </div>
@@ -148,16 +148,16 @@ const AboutPage = () => {
               <div className="relative overflow-hidden">
                 <img 
                   src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                  alt="Ana Luisa Jiménez" 
+                  alt="Harold Aguilar Alegría" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-indigo-900 to-transparent opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
               </div>
               <div className="p-4 text-center">
-                <h3 className="text-lg font-bold mb-1">Ana Luisa Jiménez</h3>
-                <p className="text-indigo-600 mb-2">Directora de Operaciones</p>
+                <h3 className="text-lg font-bold mb-1">Harold Aguilar Alegría</h3>
+                <p className="text-indigo-600 mb-2">Técnico Especialista</p>
                 <p className="text-gray-600 text-sm">
-                  Especialista en gestión de proyectos tecnológicos.
+                  Especialista en diagnóstico y reparación de laptops, computadoras y celulares, brindando soluciones rápidas y confiables.
                 </p>
               </div>
             </div>

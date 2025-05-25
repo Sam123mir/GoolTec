@@ -159,6 +159,25 @@ export const products: Product[] = [
     }
   },
   {
+    id: 33,
+    name: "Samsung Galaxy A34 5G",
+    description: "El Samsung Galaxy A34 5G es un smartphone de gama media que combina rendimiento y estilo. Con una configuración de 6GB de RAM y 128GB de almacenamiento, ofrece una experiencia fluida para todas tus aplicaciones y contenido. Su pantalla Super AMOLED de 6.6 pulgadas te brinda colores vibrantes y negros profundos.",
+    price: 1299.00,
+    image: "https://cdn.zyrosite.com/cdn-cgi/image/format=auto,w=861,fit=scale-down/cdn-ecommerce/store_01HYBZ4GR4ES8D4YPHK08H9AX7%2Fassets%2F1717594985977-191185-800-auto.png",
+    category: "Smartphones",
+    inStock: true,
+    featured: false,
+    specifications: {
+      "Procesador": "MediaTek Dimensity 1080",
+      "RAM": "6GB",
+      "Almacenamiento": "128GB",
+      "Pantalla": "6.6\" Super AMOLED FHD+",
+      "Camaras": "Principal: 48MP + 8MP (Ultra Wide) + 5MP (Macro); Frontal: 13MP",
+      "Batería": "5000 mAh",
+      "Sistema Operativo": "Android 13 (One UI 5.1)"
+    }
+  },
+  {
     id: 4,
     name: "Auriculares GoolTec Sound Pro",
     description: "Auriculares inalámbricos con cancelación de ruido activa y sonido envolvente.",
